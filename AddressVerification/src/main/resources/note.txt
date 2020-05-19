@@ -1,0 +1,16 @@
+request:
+
+{
+    "Addr": {
+        "Plus4": "1638",
+        "Addr1": "3 S Roselle Rd",
+        "PostalCode": "60193",
+        "City": "Schaumburg",
+        "StateProvCd": "IL",
+        "County": "County"
+    }
+}
+
+工程打包成jar
+新建maven
+    package -f pom.xml
