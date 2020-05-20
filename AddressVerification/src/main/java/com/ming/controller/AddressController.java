@@ -118,7 +118,7 @@ public class AddressController {
               addSugVO.setPlus4("1373");
               addSugVOList.add(addSugVO);
             }
-            addVerRes.setMessageCode(EXACTMATCH);
+            addVerRes.setMessageCode(APPROXIMATEMATCH);
             addVerRes.setAddSugVOList(addSugVOList);
             break;
           default:
